@@ -1,0 +1,60 @@
+@charset "UTF-8";
+ body {
+        background-color: rgb(255, 255, 255); /* Dark background */
+        color: rgb(0, 0, 0); /* Yellow text */
+      }
+      .navbar {
+        background-color:#ffc107; /* Yellow header */
+      }
+      .navbar-nav .nav-link {
+        color: rgb(255, 255, 255) !important; /* Dark text */
+      }
+      .navbar-nav .nav-link:hover {
+        color: rgb(255, 0, 0) !important; /* Darker text on hover */
+      }
+      .header {
+        /* background-color:rgb(255, 255, 255);  *//* Yellow background */ 
+        background:url("../img/img.png");
+        
+     
+        color: rgb(0, 0, 0); /* Dark text */
+        text-align: center;
+        height:500px;
+        padding: 150px 20px;
+      }
+      .btn-primary,
+      .btn-success {
+        background-color:#ffc107;
+        border-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+      }
+      .btn-primary:hover,
+      .btn-success:hover {
+        background-color: rgb(0, 128, 255); /* Darker yellow on hover */
+        border-color: rgb(192, 192, 192);
+        color: rgb(255, 255, 255);
+      }
+      .event-card img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .card {
+        border-color: rgb(192, 192, 192); /* Yellow border for cards */
+      }
+      .card-title {
+        color: rgb(0, 0, 0); /* Yellow card title */
+      }
+      .card-body {
+        background-color: rgb(255,255,255); /* Dark card body */
+      }
+      footer {
+      background-color:#ffc107; /* Yellow footer */
+        color: rgb(0, 0, 0); /* Dark text */
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+      }
+      .auth-section {
+        display: none;
+      }
+     
